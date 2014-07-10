@@ -24,6 +24,8 @@ If you are familiar with CochDB's HTTP interface you can instead use the followi
 
 You can query data via the [view](http://guide.couchdb.org/editions/1/en/views.html) `by_id`. Have a look at https://kirelabs.cloudant.com/detexify/_design/tools/_view/by_id?keys=%5B%22amssymb-OT1-_bigstar%22%5D&descending=false&include_docs=true&reduce=false&limit=5 for an example.
 
+Please have a look at the CouchDB documentation on [views](http://guide.couchdb.org/editions/1/en/views.html) for more information.
+
 A prettyprinted example document can be viewed in [example.json](example.json). It was obtained via the request https://kirelabs.cloudant.com/detexify/_design/tools/_view/by_id?skip=4242&limit=1&reduce=false&include_docs=true.
 
 The json objects contain two relevant keys. One is `key` and it identifies the LaTeX command this sample is for (see https://github.com/kirel/detexify/blob/master/lib/latex/symbol.rb#L22 for details). The other one is `data` which contains an array of ink strokes. Ink strokes are represented as arrays of objects `{ x: x-coordinate, y: y-coordinate, t: timestamp }`. This data is _not_ preprocessed in any way.
