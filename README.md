@@ -10,6 +10,8 @@ The database lives at: https://kirelabs.cloudant.com/detexify
 
 ### Replication
 
+__This does not work right now because of [#1](https://github.com/kirel/detexify-data/issues/1)__
+
 The best way to obtain the data is to set up your own CouchDB and [replicate](http://guide.couchdb.org/draft/replication.html) the database to yours. This can be done easily via CouchDB's Admin Interface. Assuming you have a local CouchDB running visit
 
 http://127.0.0.1:5984/_utils
