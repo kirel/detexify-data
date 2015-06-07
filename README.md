@@ -8,6 +8,8 @@ Detexify's training data is stored in a [CouchDB](http://couchdb.apache.org/) da
 
 The database lives at: https://kirelabs.cloudant.com/detexify
 
+__NOTE:__ Please send me an email (danishkirel@gmail.com) to get auth credentials. Having this open caused to many expensive calls against the API.
+
 ### Replication
 
 __This does not work right now because of [#1](https://github.com/kirel/detexify-data/issues/1)__
