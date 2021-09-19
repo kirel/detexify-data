@@ -4,7 +4,7 @@ This repository contains instructions on how to obtain and use the training data
 
 ## Obtaining the data
 
-Detexify's training data is stored in https://drive.google.com/open?id=0ByuYordD0JBRWXUxRlhEMGtfVVE
+Detexify's training data is stored in https://drive.google.com/drive/folders/0ByuYordD0JBRWXUxRlhEMGtfVVE?resourcekey=0-rYksj_Cs11AMqko9p5swdg&usp=sharing
 
 ## License
 
